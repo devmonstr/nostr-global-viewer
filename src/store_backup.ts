@@ -3,23 +3,29 @@ import { ref } from "vue";
 import * as Nostr from "nostr-tools";
 import { RelayPool } from "nostr-relaypool";
 
-export const feedRelays = ["wss://relay.monstr.ing"];
+export const feedRelays = ["wss://relay-jp.nostr.wirednet.jp/"];
 
 export const profileRelays = [
-  "wss://relay.monstr.ing",
-  "wss://relay.notoshi.win",
-  "wss://relay.siamstr.com",
-  "wss://relay.damus.io",
-  "wss://nostr-relay.app",
-  "wss://relay.0xchat.com",
-  "wss://offchain.pub",
-  "wss://nostr.mutinywallet.com",
-  "wss://relay.snort.social",
-  "wss://relay.nostr.band",
-  "wss://relay.primal.net",
-  "wss://yabu.me",
-  "wss://nostr-02.yakihonne.com",
-  "wss://nostr.wine",
+  "wss://bostr.nokotaro.com/",
+  "wss://ipv6.nostr.wirednet.jp/",
+  "wss://nos.lol/",
+  "wss://nostr-pub.wellorder.net/",
+  "wss://nostr-relay.nokotaro.com/",
+  "wss://nostr.fediverse.jp",
+  "wss://nostr.holybea.com/",
+  "wss://nostream.ocha.one/",
+  "wss://nrelay-jp.c-stellar.net",
+  "wss://nrelay.c-stellar.net",
+  "wss://offchain.pub/",
+  "wss://purplepag.es/",
+  "wss://r.kojira.io/",
+  "wss://relay-jp.nostr.wirednet.jp/",
+  "wss://relay-jp.shino3.net/",
+  "wss://relay.damus.io/",
+  "wss://relay.nostr.band/",
+  "wss://relay.nostr.wirednet.jp/",
+  "wss://relay.snort.social/",
+  "wss://yabu.me/",
 ];
 
 export const pool = new RelayPool(normalizeUrls(feedRelays), {

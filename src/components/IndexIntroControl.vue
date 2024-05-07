@@ -16,14 +16,14 @@ const nip07exists = true;
 </script>
 <template>
   <div class="p-index-signin" v-if="!props.isLogined" :style="(!nip07exists) ? { display: 'none' } : {}">
-    <h2 class="p-index-signin__head">この画面からつぶやく</h2>
+    <h2 class="p-index-signin__head">Login for Tweet</h2>
     <div class="p-index-signin__body">
-      <input class="p-index-signin__btn" type="button" value="NIP-07でログイン" v-on:click="(_$event) => props.login()" />
+      <input class="p-index-signin__btn" type="button" value="NIP-07 Login" v-on:click="(_$event) => props.login()" />
     </div>
   </div>
   <div class="p-index-intro" v-if="!props.isLogined">
     <h2 class="p-index-intro__head"><span>はじめに</span></h2>
-    <p class="p-index-intro__text">Nostr を始めてみたくなった方は</p>
+    <p class="p-index-intro__text">How to using Nostr.</p>
     <p class="p-index-intro__text">
       <a href="https://welcome.nostr-jp.org/" rel="noopener" target="_blank" class="p-index-intro__btn">Welcome to
         Nostr</a>

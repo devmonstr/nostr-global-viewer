@@ -14,7 +14,7 @@ function appVersion() {
 <template>
   <h1 class="p-index-title">
     <a href="/" :class="(Math.floor(new Date().getTime() / 1000) % 10 === 0) ? ['gaming'] : []">
-      <span class="p-index-title__main">Nozokimado</span>
+      <span class="p-index-title__main">Monstr Nostr Feed</span>
     </a>
     <span class="p-index-title__sub">From
       {{
