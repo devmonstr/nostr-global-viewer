@@ -22,26 +22,24 @@ const nip07exists = true;
     </div>
   </div>
   <div class="p-index-intro" v-if="!props.isLogined">
-    <h2 class="p-index-intro__head"><span>はじめに</span></h2>
+    <h2 class="p-index-intro__head"><span>Welcome</span></h2>
     <p class="p-index-intro__text">How to using Nostr.</p>
     <p class="p-index-intro__text">
       <a href="https://welcome.nostr-jp.org/" rel="noopener" target="_blank" class="p-index-intro__btn">Welcome to
         Nostr</a>
     </p>
-    <p class="p-index-intro__text">をはじめに読んでみてください。<br />また、ちょっと詳しいことが気になった方は</p>
+    <p class="p-index-intro__text">Please start by reading this introduction.<br />Additionally, if you are interested in more detailed information, exploring from the starting point like</p>
     <p class="p-index-intro__text">
       <a href="https://scrapbox.io/nostr/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AENostr%E3%80%90%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%96%B9%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%80%91"
-        rel="noopener" target="_blank" class="p-index-intro__btn">はじめてのNostr【はじめての方はこちら】</a>
+        rel="noopener" target="_blank" class="p-index-intro__btn">Introduction to Nostr</a>
     </p>
-    <p class="p-index-intro__text">などを起点に調べてる見ると面白いと思います。</p>
-    <h2 class="p-index-intro__head"><span>このリレーについて</span></h2>
-    <p class="p-index-intro__text">日本向けリレーとしてこのページの裏側にある
-      <code>wss://relay-jp.nostr.wirednet.jp</code>
-      を是非 Nostr クライアントに設定してお使いください。
+    <p class="p-index-intro__text">might be interesting.</p>
+    <h2 class="p-index-intro__head"><span>About this relay</span></h2>
+    <p class="p-index-intro__text">For users in Thailand, please configure your Nostr client to use the relay at <code>wss://relay.monstr.ing</code>, as detailed on the back of this page.
     </p>
-    <h2 class="p-index-intro__head">ライセンス、ソースコードなど</h2>
-    <p class="p-index-intro__text">このサイトのソースコードは<a href="https://github.com/imksoo/nostr-global-viewer"
-        class="p-index-intro__text-link" target="_blank">GitHub</a>にあります。
+    <h2 class="p-index-intro__head">Licenses, Source Code, etc.</h2>
+    <p class="p-index-intro__text">The source code for this website can be found <br> on <a href="https://github.com/imksoo/nostr-global-viewer"
+        class="p-index-intro__text-link" target="_blank">GitHub.</a>
     </p>
     <p class="p-index-intro__text">
       <a href="https://awayuki.github.io/emojis.html" target="_blank" class="p-index-intro__text-link">SUSHIYUKI
